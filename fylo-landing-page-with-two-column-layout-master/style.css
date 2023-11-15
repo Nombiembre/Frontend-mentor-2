@@ -117,8 +117,8 @@ body {
   margin-inline: auto;
 }
 
-section {
-  margin-top: var(--margin-top);
+.section-1 {
+  margin-top: calc(var(--margin-top)/2);
 }
 
 .flow > * + * {
